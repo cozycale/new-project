@@ -1,10 +1,37 @@
 * {
     font-family: "monserrat";
 }
-.navbar {
-    box-shadow: 0 0 4px sandybrown;
-    background-color: ;
+section {
+    padding-top: 128px;
+    position: relative;
 }
-.section audio {
-   
+.navbar {
+    box-shadow: 0 0 4px salmon;
+    background-color: pink ;
+}
+.home img {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.jumbotron {
+padding-top: 3rem;
+    background-color: mistyrose;
+}
+
+
+@media only screen and (max-width: 768px){
+    .home img {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .invitation {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+ .inframe{
+        width: 100%;
+    }
 }
